@@ -4,21 +4,24 @@
 
 ## Packages
 
+```
 npm install -g gatsby-cli
 
 npm install gatsby-source-filesystem
+npm install gatsby-transformer-remark
+```
 
 ## Starters
 
-npx gatsby new gatsby-app https://github.com/gatsbyjs/gatsby-starter-hello-world
+`npx gatsby new gatsby-app https://github.com/gatsbyjs/gatsby-starter-hello-world`
 
 ## Run
 
-gatsby develop
+`gatsby develop`
 
 ## Cache Clear
 
-gatsby clean
+`gatsby clean`
 
 
 

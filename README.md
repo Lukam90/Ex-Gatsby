@@ -6,6 +6,8 @@
 
 npm install -g gatsby-cli
 
+npm install gatsby-source-filesystem
+
 ## Starters
 
 npx gatsby new gatsby-app https://github.com/gatsbyjs/gatsby-starter-hello-world

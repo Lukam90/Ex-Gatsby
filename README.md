@@ -14,9 +14,9 @@ npx gatsby new gatsby-app https://github.com/gatsbyjs/gatsby-starter-hello-world
 
 gatsby develop
 
+## Cache Clear
 
-
-
+gatsby clean
 
 
 

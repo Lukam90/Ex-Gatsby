@@ -6,9 +6,7 @@ import Layout from "../components/Layout"
 
 import * as styles from "../styles/home.module.css"
 
-export default function Home({ data }) {
-	const { title, description } = data.site.siteMetadata
-
+export default function Home() {
 	return (
 		<Layout>
 			<section className={styles.header}>
@@ -23,20 +21,7 @@ export default function Home({ data }) {
 				</div>
 
 				<img src="/banner.png" alt="site banner" style={{ maxWidth: "100%" }} />
-
-				<p>{title} - {description}</p>
 			</section>
 		</Layout>
 	)
 }
-
-export const query = graphql`
-	query SiteInfo {
-		site {
-			siteMetadata {
-				description
-				title
-			}
-		}
-	}
-`
